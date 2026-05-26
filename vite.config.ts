@@ -12,4 +12,7 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
+  server: {
+    allowedHosts: ['image-to-pdf-bliss.onrender.com']
+  }
 });
