@@ -9,7 +9,7 @@ export default defineConfig({
 
   vite: {
     server: {
-      allowedHosts: ["image-to-pdf-bliss.onrender.com"],
+      allowedHosts: ["nptel.servebeer.com","image-to-pdf-bliss.onrender.com"],
     },
   },
 });
